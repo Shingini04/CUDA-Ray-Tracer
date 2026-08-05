@@ -372,26 +372,3 @@ out.ppm
 ├── Makefile         # CUDA build commands
 └── README.md        # Project explanation and documentation
 ```
-
-## Resume Description
-
-Built CUDA Ray Tracer, a GPU-accelerated path tracer in CUDA C++ that renders a
-3D scene with hundreds of spheres, diffuse/metal/glass materials,
-anti-aliasing, random sampling, gamma correction, and depth of field.
-Implemented ray generation, sphere intersections, material scattering, camera
-logic, device-side scene construction, cuRAND-based per-thread randomness, and
-an iterative ray-bounce loop designed for GPU execution.
-
-## Short Resume Bullet
-
-Built a CUDA C++ ray tracer that parallelizes path tracing across GPU threads,
-supports diffuse, metallic, and dielectric materials, uses cuRAND for
-per-pixel random sampling, and renders a 3D sphere scene with anti-aliasing and
-depth of field.
-
-## Credit
-
-This project follows the learning path of _Ray Tracing in One Weekend_ and is
-based on Roger Allen's CUDA adaptation of the book project. I used it as a
-hands-on project to understand ray tracing, CUDA programming, GPU memory
-management, and the practical differences between CPU and GPU rendering.
